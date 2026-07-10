@@ -1,0 +1,6 @@
+# Map venue abbreviations (the `abbr` field of a bibtex entry) to a URL and
+# badge color. Example:
+#
+# "DSH":
+#   url: https://academic.oup.com/dsh
+#   color: "#00369f"

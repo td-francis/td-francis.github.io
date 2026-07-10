@@ -1,0 +1,6 @@
+# Map co-author last names to profile URLs so their names are linked in the
+# publications list. Example:
+#
+# "goldstein":
+#   - firstname: ["David", "D."]
+#     url: https://linguistics.ucla.edu/person/david-goldstein/
