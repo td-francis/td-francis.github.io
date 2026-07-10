@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: "Muhammad Rehan"
-first_name: Muhammad
+title: "Tom Francis"
+first_name: Tom
 middle_name:
-last_name: Rehan
+last_name: Francis
 
 description: >-
   Graduate student in Indo-European Studies (UCLA) working on phonology,
@@ -16,7 +16,7 @@ keywords: linguistics, phonology, historical linguistics, Indo-European, Bayesia
 lang: en
 icon: favicon.png
 
-url: https://rehan-muh.github.io
+url: https://td-francis.github.io
 baseurl: ""
 
 last_updated: false # set to true if you want to display last updated in the footer
