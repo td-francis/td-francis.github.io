@@ -1,11 +1,16 @@
-Ordering note: the publications page groups entries by the `year` string and
+Ordering note: the publications page groups entries by the year string and
 sorts groups in descending lexicographic order (verified in jekyll-scholar
 7.2.2). ASCII gives lowercase > uppercase > digits, so groups render
 top-to-bottom in that order (e.g. forthcoming, Submitted, In Preparation,
 2026, 2023, 2021 would sort that way). Keep casing consistent with how you
 want groups labeled; headers are displayed uppercase via CSS.
 
-Add your own publications below using BibTeX format, e.g.:
+Add your own publications below in BibTeX format, one entry per work,
+following the standard fields: author, title, journal or booktitle, volume,
+number, pages, year, doi, html. The single example entry below is left in as
+a live placeholder so you can see the format rendered on the site. Edit its
+fields with your own info, or remove the whole entry block once you have
+added your real publications.
 
 @article{yourkey_2026,
   author  = {Lastname, Firstname},
@@ -18,8 +23,3 @@ Add your own publications below using BibTeX format, e.g.:
   doi     = {10.xxxx/xxxxx},
   html    = {https://example.com/paper}
 }
-
-Note: the entry above is a real, valid @article{} entry, so it WILL show up
-on your publications page as a placeholder. Replace its fields with your own
-real publication, or delete the whole @article{...} block once you've added
-your own entries.
