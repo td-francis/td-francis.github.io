@@ -224,6 +224,15 @@ article,
   }
 }
 
+.clearfix a {
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--global-theme-color) 40%, transparent);
+
+  &:hover {
+    border-bottom-color: var(--global-theme-color);
+  }
+}
+
 // homepage only: rule under the hero, echoing an apparatus criticus
 .post-header .desc::after {
   content: "";
