@@ -6,7 +6,7 @@ nav: true
 nav_order: 3
 ---
 
-{% assign presentations_section = site.data.cv | where_exp: "section", "section.title == 'Presentations & Posters'" | first %}
+{% assign presentations_section = site.data.cv | where_exp: "section", "section.title == 'Presentations'" | first %}
 
 <div class="publications">
   {% if presentations_section and presentations_section.contents %}
