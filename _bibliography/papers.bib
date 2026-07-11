@@ -1,20 +1,25 @@
-% Ordering note: the publications page groups entries by the `year` string and
-% sorts groups in descending lexicographic order (verified in jekyll-scholar
-% 7.2.2). ASCII gives lowercase > uppercase > digits, so groups render
-% top-to-bottom in that order (e.g. forthcoming, Submitted, In Preparation,
-% 2026, 2023, 2021 would sort that way). Keep casing consistent with how you
-% want groups labeled; headers are displayed uppercase via CSS.
+Ordering note: the publications page groups entries by the `year` string and
+sorts groups in descending lexicographic order (verified in jekyll-scholar
+7.2.2). ASCII gives lowercase > uppercase > digits, so groups render
+top-to-bottom in that order (e.g. forthcoming, Submitted, In Preparation,
+2026, 2023, 2021 would sort that way). Keep casing consistent with how you
+want groups labeled; headers are displayed uppercase via CSS.
 
-% Add your own publications below using BibTeX format. Example:
-%
-% @article{yourkey_2026,
-%   author  = {Lastname, Firstname},
-%   title   = {Your Paper Title},
-%   journal = {Journal Name},
-%   volume  = {1},
-%   number  = {1},
-%   pages   = {1--10},
-%   year    = {2026},
-%   doi     = {10.xxxx/xxxxx},
-%   html    = {https://example.com/paper}
-% }
+Add your own publications below using BibTeX format, e.g.:
+
+@article{yourkey_2026,
+  author  = {Lastname, Firstname},
+  title   = {Your Paper Title},
+  journal = {Journal Name},
+  volume  = {1},
+  number  = {1},
+  pages   = {1--10},
+  year    = {2026},
+  doi     = {10.xxxx/xxxxx},
+  html    = {https://example.com/paper}
+}
+
+Note: the entry above is a real, valid @article{} entry, so it WILL show up
+on your publications page as a placeholder. Replace its fields with your own
+real publication, or delete the whole @article{...} block once you've added
+your own entries.
