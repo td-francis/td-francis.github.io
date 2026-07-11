@@ -8,7 +8,7 @@ subtitle: >
 
 profile:
   align: right
-  image: github_photo.jpg
+  image: github_profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p><strong>Office</strong></p>
