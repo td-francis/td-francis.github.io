@@ -31,39 +31,25 @@ ninja.data = [{
             window.location.href = "/teaching/";
           },
         },{
-        id: 'social-academia_edu',
-        title: 'Academia_edu',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/cv.pdf", "_blank");
+          window.open("/assets/pdf/francis_cv_july_26.pdf", "_blank");
         },
       },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%72%65%68%61%6E%6D%75%68@%67.%75%63%6C%61.%65%64%75", "_blank");
+          window.open("mailto:%74%64%66%72%61%6E%63%69%73@%67.%75%63%6C%61.%65%64%75", "_blank");
         },
       },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/rehan-muh", "_blank");
-        },
-      },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/rehanmuh", "_blank");
+          window.open("https://github.com/td-francis", "_blank");
         },
       },{
       id: 'light-theme',
