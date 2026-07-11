@@ -11,6 +11,15 @@
 - title: Presentations & Posters
   toc: true
   type: time_table
+  # Add a `selected: true` field to any entry you want featured in the
+  # "selected presentations" section on the about page. Example:
+  #
+  # contents:
+  #   - year: 2026
+  #     title: Your Talk Title
+  #     institution: Conference or Venue Name
+  #     location: City, Country
+  #     selected: true
   contents: []
 - title: Invited Talks
   type: time_table

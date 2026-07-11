@@ -56,12 +56,12 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
+    <!-- Selected presentations -->
+    {% if page.select_presentations %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/presentations/' | relative_url }}" style="color: inherit">selected presentations</a>
       </h2>
-      {% include selected_papers.liquid %}
+      {% include select_presentations.liquid %}
     {% endif %}
 
     <!-- Social -->
