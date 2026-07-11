@@ -4,10 +4,10 @@
 - title: Education
   type: time_table
   contents: []
-- title: Publications
-  toc: true
-  type: time_table
-  contents: []
+#- title: Publications
+#  toc: true
+#  type: time_table
+#  contents: []
 - title: Presentations
   toc: true
   type: time_table
