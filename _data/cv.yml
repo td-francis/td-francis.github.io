@@ -1,6 +1,14 @@
 - title: General Information
   type: map
-  contents: []
+  contents:
+    - name: Full Name
+      value: Thomas (Tom) Francis
+    - name: Email
+      value: tdfrancis@g.ucla.edu
+    - name: Website
+      value: https://td-francis.github.io
+    - name: Languages
+      value: "Ancient: Ancient Greek (including Linear B), Latin, Etruscan, Sabellic Languages, Cisalpine Celtic, Old English; Modern: German, Italian, Spanish, French"
 - title: Education
   type: time_table
   contents: []
