@@ -3,12 +3,12 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  <span class="ipa-name">[mɔːˈhʌmʌd reɪˈhan]</span> · PhD Candidate in the
+  <span class="ipa-name">[ˈtʌm fræn.sɪs]</span> · PhD Candidate in the
   <a href="https://classics.ucla.edu/person/tom-francis/">Department of Classics</a> at UCLA.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: github_photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p><strong>Office</strong></p>
