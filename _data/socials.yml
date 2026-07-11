@@ -2,10 +2,10 @@
 # the commented lines are the default social media links supported by the template
 # the socials will be displayed in the order they are defined here
 
-academia_edu:
-  organization: chavez-ucla
-  username: MuhammadRehan
-cv_pdf: /assets/pdf/cv.pdf
-email: rehanmuh@g.ucla.edu
-github_username: rehan-muh
-linkedin_username: rehanmuh
+#academia_edu:
+  #organization: chavez-ucla
+  #username: MuhammadRehan
+cv_pdf: /assets/pdf/francis_cv_july_26.pdf
+email: tdfrancis@g.ucla.edu
+github_username: td-francis
+#linkedin_username: rehanmuh
