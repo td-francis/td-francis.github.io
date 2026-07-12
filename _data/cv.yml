@@ -32,6 +32,9 @@
   toc: true
   type: time_table
   contents:
+    - title: "Modeling Alphabet Diffusion and Community Interactions in Ancient Italy with Spatiotemporal Point Processes"
+      institution: "with Muhammad Rehan. The Connected Past 2026, Toronto, September XX"
+      year: 2026
     - title: "Point Processes and Spatiotemporal Modeling of Alphabet Spread in Ancient Italy"
       institution: "with Muhammad Rehan. DataX, UCLA, May 2019"
       year: 2026
