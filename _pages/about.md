@@ -1,9 +1,9 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: >
-  <span class="ipa-name">[ˈtʌm fræn.sɪs]</span> · PhD candidate in the
+  <span class="ipa-name">[ˈtɑm ˈfræn.sɪs]</span> · PhD candidate in the
   <a href="https://classics.ucla.edu/person/tom-francis/">Department of Classics</a> at UCLA.
 
 profile:

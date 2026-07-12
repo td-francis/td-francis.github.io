@@ -33,13 +33,13 @@
   type: time_table
   contents:
     - title: "Modeling Alphabet Diffusion and Community Interactions in Ancient Italy with Spatiotemporal Point Processes"
-      institution: "with Muhammad Rehan. The Connected Past 2026, Toronto (Canada), September XX"
-      year: 2026
+      institution: "with Muhammad Rehan. The Connected Past 2026, Toronto (Canada), September 2026"
+      year: Forth.
+      selected: true
     - title: "Point Processes and Spatiotemporal Modeling of Alphabet Spread in Ancient Italy"
       institution: "with Muhammad Rehan. DataX, UCLA, May 19"
       year: 2026
       download: /assets/files/presentations/point_process.pdf
-      selected: true
     - title: "Prose Rhythm and Punctuation as an Interpretive Tool in Diogenes of Oinoanda."
       institution: "122nd Meeting of the Classical Association of the Middle West and South, Mobile (AL), March 13"
       year: 2026
@@ -52,6 +52,7 @@
       institution: "Society of Classical Studies 2026, San Francisco (CA), January 8"
       year: 2026
       download: /assets/files/presentations/alphabets_and_language_erasure.pdf
+      selected: true
     - title: "The Wandering Whom? Medical and Mystical Displacement of the Womb in Apuleius' Galli Account"
       institution: "Imaginations of the Womb--Uterine Imaginaries, Princeton (NJ), November 21"
       year: 2025
@@ -59,6 +60,7 @@
     - title: "All Roads Lead to Veii: Using Networks to Contextualize Etruscan Inscriptions in Anagnia"
       institution: "The Connected Past 2025, Coimbra (Portugal), September 19"
       year: 2025
+      selected: true
       download: /assets/files/presentations/all_roads_veii.pdf
     - title: "Issues of Lexical Cognacy Encoding in IE-CoR"
       institution: "with Klaus Kim, Laura McLean, and Muhammad Rehan. 27th International Conference on Historical Linguistics, Santiago (de Chile), August 21"
