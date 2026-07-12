@@ -33,17 +33,49 @@
   type: time_table
   contents:
     - title: "Modeling Alphabet Diffusion and Community Interactions in Ancient Italy with Spatiotemporal Point Processes"
-      institution: "with Muhammad Rehan. The Connected Past 2026, Toronto, September XX"
+      institution: "with Muhammad Rehan. The Connected Past 2026, Toronto (Canada), September XX"
       year: 2026
     - title: "Point Processes and Spatiotemporal Modeling of Alphabet Spread in Ancient Italy"
-      institution: "with Muhammad Rehan. DataX, UCLA, May 2019"
+      institution: "with Muhammad Rehan. DataX, UCLA, May 19"
       year: 2026
       download: /assets/files/presentations/point_process.pdf
       selected: true
     - title: "Prose Rhythm and Punctuation as an Interpretive Tool in Diogenes of Oinoanda."
-      institution: "122nd Meeting of the Classical Association of the Middle West and South, Mobile (AL)"
+      institution: "122nd Meeting of the Classical Association of the Middle West and South, Mobile (AL), March 13"
       year: 2026
       download: /assets/files/presentations/diogenes_slides.pdf
+    - title: "Lost Connections: Etruscan Inscriptions in North Africa"
+      institution: "Unseen and Unheard: Lost Voices and Visages from the Ancient Mediterranean World, Boulder (CO), January 31"
+      year: 2026
+      download: /assets/files/presentations/lost_connections.pdf
+    - title: "Alphabets and Language Erasure: The Continuation of Roman Conquest in Modern Editions of Italic Languages"
+      institution: "Society of Classical Studies 2026, San Francisco (CA), January 8"
+      year: 2026
+      download: /assets/files/presentations/alphabets_and_language_erasure.pdf
+    - title: "The Wandering Whom? Medical and Mystical Displacement of the Womb in Apuleius' Galli Account"
+      institution: "Imaginations of the Womb--Uterine Imaginaries, Princeton (NJ), November 21"
+      year: 2025
+      download: /assets/files/presentations/francis_roundtable_paper.pdf
+    - title: "All Roads Lead to Veii: Using Networks to Contextualize Etruscan Inscriptions in Anagnia"
+      institution: "The Connected Past 2025, Coimbra (Portugal), September 19"
+      year: 2025
+      download: /assets/files/presentations/all_roads_veii.pdf
+    - title: "Issues of Lexical Cognacy Encoding in IE-CoR"
+      institution: "with Klaus Kim, Laura McLean, and Muhammad Rehan. 27th International Conference on Historical Linguistics, Santiago (de Chile), August 21"
+      year: 2025
+      download: /assets/files/presentations/ichl_2025.pdf
+    - title: "Don't Sleep on Dreams: Medical Dream Interpretation in Galen and Aristides."
+      institution: "121st Meeting of the Classical Association of the Middle West and South, Urbana-Champaign (IL), Marcho 20"
+      year: 2025
+      download: /assets/files/presentations/medical_dreams.pdf
+    - title: "A Semantic Reappraisal of Umbrian *-nky- Perfects"
+      institution: "119th Meeting of the Classical Association of the Middle West and South, Provo (UT), March 30"
+      year: 2023
+      download: /assets/files/presentations/nky_perfects.pdf
+    - title: "Problems of Verbal Aspect in New Testament Greek: The Perfect Participle."
+      institution: "116th Meeting of the Classical Association of the Middle West and South, Online, May 29"
+      year: 2020
+      download: /assets/files/presentations/verbal_aspect.pptx
   # Add a `selected: true` field to any entry you want featured in the
   # "selected presentations" section on the about page. Example:
   #
@@ -59,7 +91,12 @@
     - title: "Introduction to the Etruscan Language and its Epigraphic Context"
       institution: "Classics 153F, Etruscan Art and Archaeology, UCLA, May 7"
       year: 2025
-- title: Teaching Experience
+      download: /assets/files/presentations/etruscan_presentation.pdf
+- title: Teaching Experience (Instructor)
+  toc: true
+  type: time_table
+  contents: []
+- title: Teaching Experience (Teaching Assistant)
   toc: true
   type: time_table
   contents: []
