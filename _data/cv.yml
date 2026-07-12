@@ -31,6 +31,11 @@
 - title: Presentations
   toc: true
   type: time_table
+    - title: "Point Processes and Spatiotemporal Modeling of Alphabet Spread in Ancient Italy"
+      institution: "with Muhammad Rehan. DataX, UCLA, May 2019"
+      year: 2026
+      download: /assets/files/presentations/point_process.pdf
+      selected: true
   # Add a `selected: true` field to any entry you want featured in the
   # "selected presentations" section on the about page. Example:
   #
