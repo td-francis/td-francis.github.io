@@ -11,7 +11,19 @@
       value: "Ancient: Ancient Greek (including Linear B), Latin, Etruscan, Sabellic Languages, Cisalpine Celtic, Old English; Modern: German, Italian, Spanish, French"
 - title: Education
   type: time_table
-  contents: []
+  contents:
+    - title: PhD Candidate, Department of Classics; graduate certificate in Indo-European Studies
+      institution: "University of California, Los Angeles (UCLA)"
+      year: 2021-
+    - title: M.A. in Classical Languages, Concentration in Greek
+      institution: "University of Colorado, Boulder"
+      year: 2019-2021
+    - title: Post-Baccalaureate Certificate in Classical Languages
+      institution: "University of Pennsylvania"
+      year: 2018-2019
+    - title: B.A. Major in Latin and Greek; Minor in Business Administration
+      institution: "University of Richmond"
+      year: 2014-2018
 #- title: Publications
 #  toc: true
 #  type: time_table
@@ -54,6 +66,6 @@
 - title: Professional Organizations
   type: time_table
   contents: []
-- title: References
-  type: list
-  contents: []
+#- title: References
+#  type: list
+#  contents: []
