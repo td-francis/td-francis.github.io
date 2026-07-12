@@ -307,6 +307,17 @@ article,
 // ---------------------------------------------------------------------------
 
 .publications {
+  .list-group-item {
+    background-color: inherit;
+    border-color: var(--global-divider-color);
+    color: var(--global-text-color);
+
+    .badge {
+      color: var(--global-card-bg-color) !important;
+      background-color: var(--global-theme-color) !important;
+    }
+  }
+
   h1 {
     font-size: 2.1rem;
     text-align: left;
