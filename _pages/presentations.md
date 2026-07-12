@@ -21,7 +21,7 @@ nav_order: 3
         {% capture presentation_bibtex %}@misc{ {{ generated_key }},
 
 title = { {{ presentation.title | default: 'Presentation' }} },
-author = { Muhammad Rehan },
+author = { Tom Francis },
 howpublished = { {{ presentation.institution | default: 'Presentation' }} },
 note = { Presentation },
 year = { {{ presentation.year | default: '' }} }
