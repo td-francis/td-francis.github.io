@@ -12,16 +12,16 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD Candidate, Department of Classics; graduate certificate in Indo-European Studies
+    - title: PhD Candidate, Department of Classics; Graduate Certificate in Indo-European Studies
       institution: "University of California, Los Angeles (UCLA)"
       year: 2021-
     - title: M.A. in Classical Languages, Concentration in Greek
-      institution: "University of Colorado, Boulder"
+      institution: "University of Colorado, Boulder (CU Boulder)"
       year: 2021
     - title: Post-Baccalaureate Certificate in Classical Languages
       institution: "University of Pennsylvania"
       year: 2019
-    - title: B.A. Major in Latin and Greek; Minor in Business Administration
+    - title: B.A. Majors in Latin and Greek; Minor in Business Administration
       institution: "University of Richmond"
       year: 2018
 #- title: Publications
@@ -54,7 +54,7 @@
       download: /assets/files/presentations/alphabets_and_language_erasure.pdf
       selected: true
     - title: "The Wandering Whom? Medical and Mystical Displacement of the Womb in Apuleius' Galli Account"
-      institution: "Imaginations of the Womb--Uterine Imaginaries, Princeton (NJ), November 21"
+      institution: "Imaginations of the Womb - Uterine Imaginaries, Princeton (NJ), November 21"
       year: 2025
       download: /assets/files/presentations/francis_roundtable_paper.pdf
     - title: "All Roads Lead to Veii: Using Networks to Contextualize Etruscan Inscriptions in Anagnia"
@@ -67,7 +67,7 @@
       year: 2025
       download: /assets/files/presentations/ichl_2025.pdf
     - title: "Don't Sleep on Dreams: Medical Dream Interpretation in Galen and Aristides."
-      institution: "121st Meeting of the Classical Association of the Middle West and South, Urbana-Champaign (IL), Marcho 20"
+      institution: "121st Meeting of the Classical Association of the Middle West and South, Urbana-Champaign (IL), March 20"
       year: 2025
       download: /assets/files/presentations/medical_dreams.pdf
     - title: "A Semantic Reappraisal of Umbrian *-nky- Perfects"
@@ -94,29 +94,116 @@
       institution: "Classics 153F, Etruscan Art and Archaeology, UCLA, May 7"
       year: 2025
       download: /assets/files/presentations/etruscan_presentation.pdf
-- title: Teaching Experience (Instructor)
+- title: Teaching (Instructor of Record)
   toc: true
   type: time_table
-  contents: []
-- title: Teaching Experience (Teaching Assistant)
+  contents:
+    - title: Origins and Nature of English Vocabulary
+      institution: "UCLA, Classics Dept."
+      year: Summer 2026
+    - title: Origins and Nature of English Vocabulary
+      institution: "UCLA, Classics Dept."
+      year: Summer 2025
+    - title: Origins and Nature of English Vocabulary
+      institution: "UCLA, Classics Dept."
+      year: Summer 2024
+    - title: 8th Grade Greek
+      institution: "Trinity Preparatory School, NJ (Online)"
+      year: AY 2023-2024
+    - title: Latin 3
+      institution: "UCLA, Classics Dept. (Co-Instructor)"
+      year: Spring 2024
+    - title: Latin 2
+      institution: "UCLA, Classics Dept. (Co-Instructor)"
+      year: Winter 2024
+    - title: Latin 1
+      institution: "UCLA, Classics Dept. (Co-Instructor)"
+      year: Fall 2023
+    - title: Intensive Summer Greek
+      institution: "UCLA, Classics Dept. (Co-Instructor)"
+      year: Summer 2023
+- title: Teaching (Teaching Assistant)
   toc: true
   type: time_table
-  contents: []
-- title: Research Experience
+  contents:
+    - title: Discovering the Romans
+      institution: "UCLA, Classics Dept. Instructor of Record: Prof. Adriana Vazquez"
+      year: Spring 2023
+    - title: Ancient Greek and Roman Medicine
+      institution: "UCLA, Classics Dept. Instructor of Record: Prof. David Blank"
+      year: Winter 2023
+    - title: Discovering the Greeks
+      institution: "UCLA, Classics Dept. Instructor of Record: Prof. Ella Haselswerdt"
+      year: Fall 2022
+    - title: "Modern Issues, Ancient Times: Race and Antiquity"
+      institution: "CU Boulder, Classics Dept. Instructor of Record: Prof. Dimitri Nakassis"
+      year: Spring 2021
+    - title: "Topics in History: Alexander the Great"
+      institution: "CU Boulder, Classics Dept. Instructor of Record: Prof. Peter Hunt"
+      year: Fall 2020
+    - title: Greek and Roman Mythology
+      institution: "CU Boulder, Classics Dept. Instructor of Record: Prof. Tyler Lansford"
+      year: Summer 2020
+    - title: Rise and Fall of Rome
+      institution: "CU Boulder, Classics Dept. Instructor of Record: Prof. Tyler Lansford"
+      year: Spring 2020
+    - title: "Bread and Circuses: Roman Culture and Politics"
+      institution: "CU Boulder, Classics Dept. Instructor of Record: Prof. Andy Cain"
+      year: Fall 2019
+- title: Research Assistant Positions
   type: time_table
-  contents: []
-- title: Scholarships & Awards
+  contents:
+    - title: Prof. David Goldstein
+      institution: Homeric and Inscriptional Greek Data Collection
+      year: W 2024-Present
+    - title: Prof. Alex Purves
+      institution: Book Proofreading, Bibliography Compilation, Homeric Greek Data Collection
+      year: F 2024-Present
+- title: Grants & Awards
   type: time_table
-  contents: []
-- title: External Coursework and Certifications
-  type: time_table
-  contents: []
+  contents:
+    - title: UCLA Graduate Research Mentorship Award
+      institution: "Advisor: Prof. Hannah Čulík-Baird"
+      year: AY 2024-2025
+    - title: UCLA Keck Humanistic Inquiry Research Award
+      institution: "with Klaus Kim, Laura McLean, and Muhammad Rehan. Advisor: Prof. David Goldstein"
+      year: Summer 2024
+    - title: UCLA Graduate Summer Research Mentorship Award
+      institution: "Advisor: Prof. Brent Vine"
+      year: Summer 2022
+    - title: CU Boulder Benson Center Language Study Grant
+      year: Summer 2020
+    - title: CU Boulder Hunter Rawlings Award
+      year: Summer 2020
+    - title: University of Richmond Arts and Sciences Symposium Paper Competition Award
+      year: Spring 2018
+    - title: University of Richmond Tanner Medal for Excellence in Greek
+      year: Spring 2018
+    - title: University of Richmond Undergraduate Research Fellow
+      institution: "Advisor: Prof. Dean Simpson"
+      year: Summer 2017
+#- title: External Coursework and Certifications
+#  type: time_table
+#  contents: []
 - title: Technical Skills & Programming Languages
   type: nested_list
-  contents: []
+  contents:
+    - title: Programming, Software, and Operating Systems
+      items:
+        - Microsoft Office, Python, Jupyter, R and RStudio, LaTeX, Gephi, QGIS, Windows, MacOS, Linux
 - title: Service
   type: time_table
-  contents: []
+  contents:
+    - title: Data X Stacks Xchange Co-Organizer (UCLA)
+      year: AY 2026-2027
+    - title: Classics Department Graduate Workshop Organizer (UCLA)
+      year: AY 2025-2026
+    - title: Classics Graduate Student Mentor (UCLA)
+      year: AY 2023-2024
+    - title: Classics Graduate Student Representative (UCLA)
+      year: AY 2022-2023
+    - title: Classics Graduate Colloquium Event Organizer (CU Boulder)
+      year: AY 2020-2021
 #- title: Professional Organizations
 #  type: time_table
 #  contents: []
