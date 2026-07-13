@@ -12,7 +12,7 @@ profile:
   image_circular: false # crops the image to make it circular
   
 office_info: >
-    <p><strong>Office</strong></p>
+    <p><strong>Office:</strong></p>
     <p>Dodd 2, Dodd Hall</p>
     <p>390 Portola Plaza</p>
     <p>Los Angeles, CA 90095</p>
