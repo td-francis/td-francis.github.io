@@ -155,10 +155,10 @@
   contents:
     - title: Prof. David Goldstein
       institution: Homeric and Inscriptional Greek Data Collection
-      year: Winter 2024-Present
+      year: W 2024-Present
     - title: Prof. Alex Purves
       institution: Book Proofreading, Bibliography Compilation, Homeric Greek Data Collection
-      year: Fall 2024-Present
+      year: F 2024-Present
 - title: Grants & Awards
   type: time_table
   contents:
@@ -190,7 +190,7 @@
   contents:
     - title: Programming, Software, and Operating Systems
       items:
-        -Microsoft Office, Python, Jupyter, R and RStudio, Latex, Gephi, Windows, MacOS, Linux
+        - Microsoft Office, Python, Jupyter, R and RStudio, Latex, Gephi, Windows, MacOS, Linux
 - title: Service
   type: time_table
   contents:
