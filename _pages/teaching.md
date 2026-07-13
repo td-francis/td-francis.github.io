@@ -6,32 +6,42 @@ nav: true
 nav_order: 6
 ---
 
-{% assign teaching_section = site.data.cv | where_exp: "section", "section.title == 'Teaching Experience'" | first %}
+{% assign instructor_section = site.data.cv | where_exp: "section", "section.title == 'Teaching Experience (Instructor of Record)'" | first %}
+{% assign ta_section = site.data.cv | where_exp: "section", "section.title == 'Teaching Experience (Teaching Assistant)'" | first %}
 
 <div class="teaching-list">
-  {% if teaching_section and teaching_section.contents %}
-    {% assign current_group = "" %}
-    {% for teaching in teaching_section.contents %}
-      {% assign institution_text = teaching.institution | default: "" %}
-      {% if institution_text contains "Grinnell College" %}
-        {% assign group = "Grinnell College" %}
-      {% else %}
-        {% assign group = "UCLA" %}
-      {% endif %}
-
-      {% if group != current_group %}
-        {% assign current_group = group %}
-        <h2 class="teaching-group">{{ group }}</h2>
-      {% endif %}
-
+  {% if instructor_section and instructor_section.contents and instructor_section.contents.size > 0 %}
+    <h2 class="teaching-group">Instructor of Record</h2>
+    {% for teaching in instructor_section.contents %}
       <div class="teaching-item">
         <div class="teaching-title">
           {{ teaching.title }}
           {% if teaching.year %}<span class="teaching-year">{{ teaching.year }}</span>{% endif %}
         </div>
-        {% if institution_text != blank %}<div class="teaching-institution">{{ institution_text }}</div>{% endif %}
+        {% if teaching.institution %}<div class="teaching-institution">{{ teaching.institution }}</div>{% endif %}
       </div>
     {% endfor %}
+  {% endif %}
+
+  {% if ta_section and ta_section.contents and ta_section.contents.size > 0 %}
+    <h2 class="teaching-group">Teaching Assistant</h2>
+    {% for teaching in ta_section.contents %}
+      <div class="teaching-item">
+        <div class="teaching-title">
+          {{ teaching.title }}
+          {% if teaching.year %}<span class="teaching-year">{{ teaching.year }}</span>{% endif %}
+        </div>
+        {% if teaching.institution %}<div class="teaching-institution">{{ teaching.institution }}</div>{% endif %}
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% assign has_instructor = instructor_section.contents.size | default: 0 %}
+  {% assign has_ta = ta_section.contents.size | default: 0 %}
+  {% if has_instructor == 0 and has_ta == 0 %}
+    <p>No teaching experience is currently listed in the CV data.</p>
+  {% endif %}
+</div>
 
 {% else %}
 
