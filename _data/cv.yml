@@ -126,29 +126,29 @@
   toc: true
   type: time_table
   contents:
-    - title: Teaching Assistant
-      institution: "(Classics), Discovering the Romans, UCLA. Instructor of Record: Prof. Adriana Vazquez"
+    - title: Discovering the Romans
+      institution: "UCLA, Classics Dept. Instructor of Record: Prof. Adriana Vazquez"
       year: Spring 2023
-    - title: Teaching Assistant
-      institution: "(Classics), Ancient Greek and Roman Medicine, UCLA. Instructor of Record: Prof. David Blank"
+    - title: Ancient Greek and Roman Medicine
+      institution: "UCLA, Classics Dept. Instructor of Record: Prof. David Blank"
       year: Winter 2023
-    - title: Teaching Assistant
-      institution: "(Classics), Discovering the Greeks, UCLA. Instructor of Record: Prof. Ella Haselswerdt"
+    - title: Discovering the Greeks
+      institution: "UCLA, Classics Dept. Instructor of Record: Prof. Ella Haselswerdt"
       year: Fall 2022
-    - title: Teaching Assistant
-      institution: "(Classics), Modern Issues, Ancient Times: Race and Antiquity, CU Boulder. Instructor of Record: Prof. Dimitri Nakassis"
+    - title: Modern Issues, Ancient Times: Race and Antiquity
+      institution: "CU Boulder, Classics Dept. Instructor of Record: Prof. Dimitri Nakassis"
       year: Spring 2021
-    - title: Teaching Assistant
-      institution: "(Classics), Topics in History: Alexander the Great, CU Boulder. Instructor of Record: Prof. Peter Hunt"
+    - title: Topics in History: Alexander the Great
+      institution: "CU Boulder, Classics Dept. Instructor of Record: Prof. Peter Hunt"
       year: Fall 2020
-    - title: Teaching Assistant
-      institution: "(Classics), Greek and Roman Mythology, CU Boulder. Instructor of Record: Prof. Tyler Lansford"
+    - title: Greek and Roman Mythology
+      institution: "CU Boulder, Classics Dept. Instructor of Record: Prof. Tyler Lansford"
       year: Summer 2020
-    - title: Teaching Assistant
-      institution: "(Classics), Rise and Fall of Rome, CU Boulder. Instructor of Record: Prof. Tyler Lansford"
+    - title: Rise and Fall of Rome
+      institution: "CU Boulder, Classics Dept. Instructor of Record: Prof. Tyler Lansford"
       year: Spring 2020
-    - title: Teaching Assistant
-      institution: "Classics), Bread and Circuses: Roman Culture and Politics, CU Boulder. Instructor of Record: Prof. Andy Cain"
+    - title: Bread and Circuses: Roman Culture and Politics
+      institution: "CU Boulder, Classics Dept. Instructor of Record: Prof. Andy Cain"
       year: Fall 2019
 - title: Research Experience
   type: time_table
