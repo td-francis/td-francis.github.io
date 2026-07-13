@@ -14,7 +14,7 @@ profile:
 office_info: >
     <p><strong>Office:</strong></p>
     <p>Dodd Hall 2,</p>
-    <p>390 Portola Plaza</p>
+    <p>390 Portola Plaza,</p>
     <p>Los Angeles, CA 90095</p>
 
 select_presentations: true # includes a list of papers marked as "selected={true}"
