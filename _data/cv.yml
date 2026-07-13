@@ -150,21 +150,60 @@
     - title: Bread and Circuses: Roman Culture and Politics
       institution: "CU Boulder, Classics Dept. Instructor of Record: Prof. Andy Cain"
       year: Fall 2019
-- title: Research Experience
+- title: Research Assistant Positions
   type: time_table
-  contents: []
-- title: Scholarships & Awards
+  contents:
+    - title: Prof. David Goldstein
+      institution: Homeric and Inscriptional Greek Data Collection
+      year: Winter 2024-Present
+    - title: Prof. Alex Purves
+      institution: Book Proofreading, Bibliography Compilation, Homeric Greek Data Collection
+      year: Fall 2024-Present
+- title: Grants & Awards
   type: time_table
-  contents: []
-- title: External Coursework and Certifications
-  type: time_table
-  contents: []
+  contents:
+    - title: UCLA Graduate Research Mentorship Award
+      institution: "Advisor: Prof. Hannah Čulík-Baird"
+      year: AY 2024-2025
+    - title: UCLA Keck Humanistic Inquiry Research Award
+      institution: "with Klaus Kim, Laura McLean, and Muhammad Rehan. Advisor: Prof. David Goldstein"
+      year: Summer 2024
+    - title: UCLA Graduate Summer Research Mentorship Award
+      institution: "Advisor: Prof. Brent Vine"
+      year: Summer 2022
+    - title: CU Boulder Benson Center Language Study Grant
+      year: Summer 2020
+    - title: CU Boulder Hunter Rawlings Award
+      year: Summer 2020
+    - title: University of Richmond Arts and Sciences Symposium Paper Competition Award
+      year: Spring 2018
+    - title: University of Richmond Tanner Medal for Excellence in Greek
+      year: Spring 2018
+    - title: University of Richmond Undergraduate Research Fellow
+      institution: Advisor: Prof. Dean Simpson
+      year: Summer 2017
+#- title: External Coursework and Certifications
+#  type: time_table
+#  contents: []
 - title: Technical Skills & Programming Languages
   type: nested_list
-  contents: []
+  contents:
+    - title: Programming, Software, and Operating Systems
+      items:
+        -Microsoft Office, Python, Jupyter, R and RStudio, Latex, Gephi, Windows, MacOS, Linux
 - title: Service
   type: time_table
-  contents: []
+  contents:
+    - title: Data X Stacks Xchange Co-Organizer (UCLA)
+      year: AY 2026-2027
+    - title: Classics Department Graduate Workshop Organizer (UCLA)
+      year: AY 2025-2026
+    - title: Classics Graduate Student Mentor (UCLA)
+      year: AY 2023-2024
+    - title: Classics Graduate Student Representative (UCLA)
+      year: AY 2022-2023
+    - title: Classics Graduate Colloquium Event Organizer (CU Boulder)
+      year: AY 2020-2021
 #- title: Professional Organizations
 #  type: time_table
 #  contents: []
