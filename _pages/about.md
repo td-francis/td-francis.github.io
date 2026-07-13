@@ -3,8 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  <span PhD candidate in the
-  <a href="https://classics.ucla.edu/person/tom-francis/">Department of Classics</a> at UCLA.
+  <span PhD candidate in the <a href="https://classics.ucla.edu/person/tom-francis/">Department of Classics</a> at UCLA.
 
 profile:
   align: right
