@@ -190,7 +190,7 @@
   contents:
     - title: Programming, Software, and Operating Systems
       items:
-        - Microsoft Office, Python, Jupyter, R and RStudio, Latex, Gephi, Windows, MacOS, Linux
+        - Microsoft Office, Python, Jupyter, R and RStudio, LaTeX, Gephi, QGIS, Windows, MacOS, Linux
 - title: Service
   type: time_table
   contents:
