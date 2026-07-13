@@ -10,7 +10,8 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
+  
+office_info: >
     <p><strong>Office</strong></p>
     <p>Dodd 2, Dodd Hall</p>
     <p>390 Portola Plaza</p>
