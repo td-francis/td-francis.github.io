@@ -243,6 +243,28 @@ article,
   background: linear-gradient(to right, var(--accent-secondary), var(--global-theme-color));
 }
 
+.office-info {
+  font-family: $mono-stack;
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: var(--global-text-color-light);
+  margin-top: 1.5rem;
+
+  p {
+    display: inline-block;
+    margin: 0;
+  }
+
+  p strong {
+    font-family: $sans-stack;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--meta-mono);
+  }
+}
+
 .profile {
   img {
     border-radius: 10px;
