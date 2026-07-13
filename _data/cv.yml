@@ -99,28 +99,28 @@
   type: time_table
   contents:
     - title: Origins and Nature of English Vocabulary
-      institution: "UCLA Classics."
+      institution: "UCLA, Classics Dept."
       year: Summer 2026
-    - title: Instructor of Record
-      institution: "(Classics), Origins and Nature of English Vocabulary, UCLA."
+    - title: Origins and Nature of English Vocabulary
+      institution: "UCLA, Classics Dept."
       year: Summer 2025
-    - title: Instructor of Record
-      institution: "(Classics), Origins and Nature of English Vocabulary, UCLA."
+    - title: Origins and Nature of English Vocabulary
+      institution: "UCLA, Classics Dept."
       year: Summer 2024
-    - title: Instructor of Record
-      institution: "8th Grade Greek, Trinity Preparatory School (Online)"
+    - title: 8th Grade Greek
+      institution: "Trinity Preparatory School, NJ (Online)"
       year: AY 2023-2024
-    - title: Co-Instructor of Record
-      institution: "Latin 3, UCLA"
+    - title: Latin 3
+      institution: "UCLA, Classics Dept. (Co-Instructor)"
       year: Spring 2024
-    - title: Co-Instructor of Record
-      institution: "Latin 2, UCLA"
+    - title: Latin 2
+      institution: "UCLA, Classics Dept. (Co-Instructor)"
       year: Winter 2024
-    - title: Co-Instructor of Record
-      institution: "Latin 1, UCLA"
+    - title: Latin 1
+      institution: "UCLA, Classics Dept. (Co-Instructor)"
       year: Fall 2023
-    - title: Co-Instructor of Record
-      institution: "Intensive Summer Greek, UCLA"
+    - title: Intensive Summer Greek
+      institution: "UCLA, Classics Dept. (Co-Instructor)"
       year: Summer 2023
 - title: Teaching Experience (Teaching Assistant)
   toc: true
