@@ -13,7 +13,7 @@ profile:
   
 office_info: >
     <p><strong>Office:</strong></p>
-    <p>Dodd 2, Dodd Hall</p>
+    <p>Dodd Hall 2,</p>
     <p>390 Portola Plaza</p>
     <p>Los Angeles, CA 90095</p>
 
