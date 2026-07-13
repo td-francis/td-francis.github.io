@@ -6,8 +6,8 @@ nav: true
 nav_order: 6
 ---
 
-{% assign instructor_section = site.data.cv | where_exp: "section", "section.title == 'Teaching Experience (Instructor of Record)'" | first %}
-{% assign ta_section = site.data.cv | where_exp: "section", "section.title == 'Teaching Experience (Teaching Assistant)'" | first %}
+{% assign instructor_section = site.data.cv | where_exp: "section", "section.title == 'Teaching (Instructor of Record)'" | first %}
+{% assign ta_section = site.data.cv | where_exp: "section", "section.title == 'Teaching (Teaching Assistant)'" | first %}
 
 <div class="teaching-list">
   {% if instructor_section and instructor_section.contents and instructor_section.contents.size > 0 %}
