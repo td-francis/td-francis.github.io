@@ -73,6 +73,11 @@ layout: default
       </div>
     {% endif %}
 
+    <!-- Office info -->
+    {% if page.office_info %}
+      <div class="office-info">{{ page.office_info }}</div>
+    {% endif %}
+
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
