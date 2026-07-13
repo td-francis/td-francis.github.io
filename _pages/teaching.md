@@ -42,10 +42,3 @@ nav_order: 6
     <p>No teaching experience is currently listed in the CV data.</p>
   {% endif %}
 </div>
-
-{% else %}
-
-<p>No teaching experience is currently listed in the CV data.</p>
-{% endif %}
-
-</div>
