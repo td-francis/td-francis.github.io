@@ -30,13 +30,11 @@ I am a PhD Candidate in Classics at UCLA with a <a href="https://pies.ucla.edu/g
 
 <ul class="interest-tags">
   <li>Digital Humanities</li>
+  <li>Network Analysis</li>
   <li>Epigraphy</li>
   <li>Paleography</li>
   <li>Historical Linguistics</li>
-  <li>Computational Linguistics</li>
   <li>Etruscan</li>
   <li>Sabellic Languages</li>
-  <li>Cisapline Celtic</li>
-  <li>English Etymology</li>
   <li>Greco-Roman Medicine</li>
 </ul>
