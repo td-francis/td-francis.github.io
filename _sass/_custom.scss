@@ -306,6 +306,14 @@ article,
     letter-spacing: 0.03em;
     color: var(--global-text-color-light);
     margin-bottom: 0.35rem;
+    break-inside: avoid;
+  }
+}
+
+@media (min-width: 576px) {
+  .interest-tags {
+    column-count: 2;
+    column-gap: 1.5rem;
   }
 }
 
