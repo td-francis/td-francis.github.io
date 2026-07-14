@@ -296,20 +296,16 @@ article,
 // research-interest tags on the about page
 .interest-tags {
   margin-top: 1.25rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
+  padding-left: 1.25rem;
+  list-style-type: disc;
 
-  span {
+  li {
     font-family: $sans-stack;
-    font-size: 0.76rem;
+    font-size: 0.9rem;
     font-weight: 500;
     letter-spacing: 0.03em;
     color: var(--global-text-color-light);
-    border: 1px solid var(--accent-tint);
-    border-radius: 999px;
-    padding: 0.18rem 0.65rem;
-    background: color-mix(in srgb, var(--accent-tint) 22%, var(--global-card-bg-color));
+    margin-bottom: 0.35rem;
   }
 }
 

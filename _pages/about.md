@@ -28,11 +28,11 @@ latest_posts:
 
 I am a PhD Candidate in Classics at UCLA with a <a href="https://pies.ucla.edu/graduate/ies-certificate/">graduate certificate</a> in Indo-European Studies. My dissertation involves the creation of a new and interdisciplinary dataset tracking archaeological, epigraphic, linguistic, and historical features across inscriptions in 1st millennium BCE Italy. This dataset is employed in a variety of computational analyses (especially network analyses) to study the extant inscriptional record in ancient Italy. These analyses reevaluate observable interactions between sites and groups as seen in the spread of material, epigraphic, and linguistic practices throughout ancient Italy and provide new insights into diffusion and community interactions in 1st millennium BCE Italy. In addition to these primary research interests, I have also presented on Greco-Roman medicine, Imperial Greek and Latin literature, and Koine Greek.
 
-<div class="interest-tags">
-  <span>Digital Humanities</span>
-  <span>Epigraphy</span>
-  <span>Paleography</span>
-  <span>Etruscan, Sabellic, and Cisalpine Celtic Languages</span>
-  <span>Historical Linguistics</span>
-  <span>Greco-Roman Medicine</span>
-</div>
+<ul class="interest-tags">
+  <li>Digital Humanities</li>
+  <li>Epigraphy</li>
+  <li>Paleography</li>
+  <li>Etruscan, Sabellic, and Cisalpine Celtic Languages</li>
+  <li>Historical Linguistics</li>
+  <li>Greco-Roman Medicine</li>
+</ul>
