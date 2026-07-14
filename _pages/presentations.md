@@ -35,7 +35,7 @@ year = { {{ presentation.year | default: '' }} }
 
       {% assign show_download_button = presentation_download != blank %}
 
-      <div class="row mb-4">
+      <div class="row mb-4" id="{{ generated_key }}">
         <div class="col-sm-2 text-sm-center mb-2 mb-sm-0">
           {% if presentation.year %}
             <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ presentation.year }}</span>

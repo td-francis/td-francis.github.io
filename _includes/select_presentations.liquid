@@ -6,14 +6,15 @@
         <li class="list-group-item">
           <div class="row">
             {% if content.year %}
+              {% assign generated_key = content.title | default: "presentation" | slugify | append: content.year %}
               <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px">
                 <table class="table-cv">
                   <tbody>
                     <tr>
                       <td>
-                        <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                        <a href="{{ '/presentations/' | relative_url }}#{{ generated_key }}" class="badge font-weight-bold danger-color-dark text-uppercase align-middle badge-link" style="min-width: 75px">
                           {{- content.year -}}
-                        </span>
+                        </a>
                       </td>
                     </tr>
                     {% if content.location %}

@@ -38,6 +38,18 @@ a.btncv:hover {
   text-decoration: none !important;
 }
 
+a.badge-link {
+  text-decoration: none !important;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+a.badge-link:hover,
+a.badge-link:focus {
+  opacity: 0.8;
+  text-decoration: none !important;
+}
+
 /*****************************
  * CV TIME_TABLE styles
  *****************************/
@@ -66,6 +78,13 @@ i.icondepartment {
 
 table.institution {
   margin-bottom: 1rem;
+}
+
+// no_defer.js auto-adds Bootstrap's .table-hover class to every table on the
+// page, which makes this row highlight on hover as if it were clickable.
+// It isn't, so we cancel that highlight here.
+table.institution.table-hover tbody tr:hover {
+  background-color: transparent !important;
 }
 
 td.department {
