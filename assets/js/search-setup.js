@@ -17,18 +17,20 @@ const openSearchModal = () => {
 };
 
 // Keep the results list empty until the user actually types something,
-// instead of showing every indexed item by default. We use a
-// MutationObserver (rather than an injected stylesheet) because ninja-keys
-// re-renders its shadow DOM via Lit, which can wipe out elements we append
-// ourselves; the observer re-applies the hide/show state after every render.
+// instead of showing every indexed item by default. We only toggle the
+// dedicated ".actions-list" results container (the same container
+// ninja-keys itself uses internally for scroll-to-top on search), rather
+// than hiding individual result rows — hiding rows directly previously
+// collapsed the shared layout and pushed the input out of view. We use a
+// MutationObserver rather than a one-time check because ninja-keys
+// re-renders its shadow DOM via Lit on every keystroke.
 let searchQueryIsEmpty = true;
 
 const applyResultVisibility = () => {
   if (!ninjaKeys.shadowRoot) return;
-  const display = searchQueryIsEmpty ? "none" : "";
-  ninjaKeys.shadowRoot.querySelectorAll(".ninja-action, .group-header").forEach((el) => {
-    el.style.display = display;
-  });
+  const actionsList = ninjaKeys.shadowRoot.querySelector(".actions-list");
+  if (!actionsList) return;
+  actionsList.style.display = searchQueryIsEmpty ? "none" : "";
 };
 
 const startObservingResults = () => {
