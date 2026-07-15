@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  <span>PhD candidate in the <a href="https://classics.ucla.edu/person/tom-francis/">Department of Classics</a> at UCLA.
+  <span>PhD candidate · <a href="https://classics.ucla.edu/person/tom-francis/">UCLA Department of Classics</a>
 
 profile:
   align: right
@@ -30,9 +30,11 @@ I am a PhD Candidate in Classics at UCLA with a <a href="https://pies.ucla.edu/g
 
 <ul class="interest-tags">
   <li>Digital Humanities</li>
+  <li>Network Analysis</li>
   <li>Epigraphy</li>
   <li>Paleography</li>
-  <li>Etruscan, Sabellic, and Cisalpine Celtic Languages</li>
   <li>Historical Linguistics</li>
+  <li>Etruscan</li>
+  <li>Sabellic Languages</li>
   <li>Greco-Roman Medicine</li>
 </ul>
