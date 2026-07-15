@@ -17,36 +17,35 @@ const openSearchModal = () => {
 };
 
 // Keep the results list empty until the user actually types something,
-// instead of showing every indexed item by default.
-const applyEmptySearchStyles = () => {
-  if (!ninjaKeys.shadowRoot || ninjaKeys.shadowRoot.querySelector("#empty-search-style")) {
-    return;
-  }
-  const style = document.createElement("style");
-  style.id = "empty-search-style";
-  style.textContent = `
-    :host([data-empty-search]) .ninja-action,
-    :host([data-empty-search]) .group-header {
-      display: none !important;
-    }
-  `;
-  ninjaKeys.shadowRoot.appendChild(style);
+// instead of showing every indexed item by default. We use a
+// MutationObserver (rather than an injected stylesheet) because ninja-keys
+// re-renders its shadow DOM via Lit, which can wipe out elements we append
+// ourselves; the observer re-applies the hide/show state after every render.
+let searchQueryIsEmpty = true;
+
+const applyResultVisibility = () => {
+  if (!ninjaKeys.shadowRoot) return;
+  const display = searchQueryIsEmpty ? "none" : "";
+  ninjaKeys.shadowRoot.querySelectorAll(".ninja-action, .group-header").forEach((el) => {
+    el.style.display = display;
+  });
+};
+
+const startObservingResults = () => {
+  if (!ninjaKeys.shadowRoot) return;
+  applyResultVisibility();
+  const observer = new MutationObserver(applyResultVisibility);
+  observer.observe(ninjaKeys.shadowRoot, { childList: true, subtree: true });
 };
 
 if (ninjaKeys.shadowRoot) {
-  applyEmptySearchStyles();
+  startObservingResults();
 } else {
-  customElements.whenDefined("ninja-keys").then(applyEmptySearchStyles);
+  customElements.whenDefined("ninja-keys").then(startObservingResults);
 }
-
-// start hidden, since the modal opens with no query typed yet
-ninjaKeys.setAttribute("data-empty-search", "");
 
 ninjaKeys.addEventListener("change", (e) => {
   const query = (e.detail && e.detail.search) || "";
-  if (query.trim().length === 0) {
-    ninjaKeys.setAttribute("data-empty-search", "");
-  } else {
-    ninjaKeys.removeAttribute("data-empty-search");
-  }
+  searchQueryIsEmpty = query.trim().length === 0;
+  applyResultVisibility();
 });
