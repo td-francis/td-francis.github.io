@@ -3,71 +3,285 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "About",
-    section: "Navigation",
-    handler: () => {
-      window.location.href = "/";
-    },
-  },{id: "nav-presentations",
-          title: "Presentations",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/presentations/";
-          },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "Download my CV as a PDF.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "Teaching",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/francis_cv_july_26.pdf", "_blank");
-        },
-      },{
-        id: 'social-email',
-        title: 'Email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%74%64%66%72%61%6E%63%69%73@%67.%75%63%6C%61.%65%64%75", "_blank");
-        },
-      },{
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },];
+            id: "cv-education-1",
+            title: 'PhD Candidate, Department of Classics; Graduate Certificate in Indo-European Studies',
+            description: "University of California, Los Angeles (UCLA) (2021-)",
+            section: "Education",
+            handler: () => {window.location.href = "/cv/#Education";},
+          },{
+            id: "cv-education-2",
+            title: 'M.A. in Classical Languages, Concentration in Greek',
+            description: "University of Colorado, Boulder (CU Boulder) (2021)",
+            section: "Education",
+            handler: () => {window.location.href = "/cv/#Education";},
+          },{
+            id: "cv-education-3",
+            title: 'Post-Baccalaureate Certificate in Classical Languages',
+            description: "University of Pennsylvania (2019)",
+            section: "Education",
+            handler: () => {window.location.href = "/cv/#Education";},
+          },{
+            id: "cv-education-4",
+            title: 'B.A. Majors in Latin and Greek; Minor in Business Administration',
+            description: "University of Richmond (2018)",
+            section: "Education",
+            handler: () => {window.location.href = "/cv/#Education";},
+          },{
+            id: "cv-presentations-1",
+            title: 'Modeling Alphabet Diffusion and Community Interactions in Ancient Italy with Spatiotemporal Point Processes...',
+            description: "with Muhammad Rehan. The Connected Past 2026, Toronto (Canada), September 2026 (Forth.)",
+            section: "Presentations",
+            handler: () => {window.location.href = "/presentations/";},
+          },{
+            id: "cv-presentations-2",
+            title: 'Point Processes and Spatiotemporal Modeling of Alphabet Spread in Ancient Italy',
+            description: "with Muhammad Rehan. DataX, UCLA, May 19 (2026)",
+            section: "Presentations",
+            handler: () => {window.location.href = "/presentations/";},
+          },{
+            id: "cv-presentations-3",
+            title: 'Prose Rhythm and Punctuation as an Interpretive Tool in Diogenes of Oinoanda.',
+            description: "122nd Meeting of the Classical Association of the Middle West and South, Mobile (AL), March 13 (2026)",
+            section: "Presentations",
+            handler: () => {window.location.href = "/presentations/";},
+          },{
+            id: "cv-presentations-4",
+            title: 'Lost Connections: Etruscan Inscriptions in North Africa',
+            description: "Unseen and Unheard: Lost Voices and Visages from the Ancient Mediterranean World, Boulder (CO), January 31 (2026)",
+            section: "Presentations",
+            handler: () => {window.location.href = "/presentations/";},
+          },{
+            id: "cv-presentations-5",
+            title: 'Alphabets and Language Erasure: The Continuation of Roman Conquest in Modern Editions of...',
+            description: "Society of Classical Studies 2026, San Francisco (CA), January 8 (2026)",
+            section: "Presentations",
+            handler: () => {window.location.href = "/presentations/";},
+          },{
+            id: "cv-presentations-6",
+            title: 'The Wandering Whom? Medical and Mystical Displacement of the Womb in Apuleius&#39; Galli...',
+            description: "Imaginations of the Womb - Uterine Imaginaries, Princeton (NJ), November 21 (2025)",
+            section: "Presentations",
+            handler: () => {window.location.href = "/presentations/";},
+          },{
+            id: "cv-presentations-7",
+            title: 'All Roads Lead to Veii: Using Networks to Contextualize Etruscan Inscriptions in Anagnia...',
+            description: "The Connected Past 2025, Coimbra (Portugal), September 19 (2025)",
+            section: "Presentations",
+            handler: () => {window.location.href = "/presentations/";},
+          },{
+            id: "cv-presentations-8",
+            title: 'Issues of Lexical Cognacy Encoding in IE-CoR',
+            description: "with Klaus Kim, Laura McLean, and Muhammad Rehan. 27th International Conference on Historical Linguistics, Santiago (de Chile), August 21 (2025)",
+            section: "Presentations",
+            handler: () => {window.location.href = "/presentations/";},
+          },{
+            id: "cv-presentations-9",
+            title: 'Don&#39;t Sleep on Dreams: Medical Dream Interpretation in Galen and Aristides.',
+            description: "121st Meeting of the Classical Association of the Middle West and South, Urbana-Champaign (IL), March 20 (2025)",
+            section: "Presentations",
+            handler: () => {window.location.href = "/presentations/";},
+          },{
+            id: "cv-presentations-10",
+            title: 'A Semantic Reappraisal of Umbrian *-nky- Perfects',
+            description: "119th Meeting of the Classical Association of the Middle West and South, Provo (UT), March 30 (2023)",
+            section: "Presentations",
+            handler: () => {window.location.href = "/presentations/";},
+          },{
+            id: "cv-presentations-11",
+            title: 'Problems of Verbal Aspect in New Testament Greek: The Perfect Participle.',
+            description: "116th Meeting of the Classical Association of the Middle West and South, Online, May 29 (2020)",
+            section: "Presentations",
+            handler: () => {window.location.href = "/presentations/";},
+          },{
+            id: "cv-invited-talks-1",
+            title: 'Introduction to the Etruscan Language and its Epigraphic Context',
+            description: "Classics 153F, Etruscan Art and Archaeology, UCLA, May 7 (2025)",
+            section: "Invited Talks",
+            handler: () => {window.location.href = "/cv/#Invited%20Talks";},
+          },{
+            id: "cv-teaching-instructor-of-record-1",
+            title: 'Origins and Nature of English Vocabulary',
+            description: "UCLA, Classics Dept. (Summer 2026)",
+            section: "Teaching (Instructor of Record)",
+            handler: () => {window.location.href = "/cv/#Teaching%20(Instructor%20of%20Record)";},
+          },{
+            id: "cv-teaching-instructor-of-record-2",
+            title: 'Origins and Nature of English Vocabulary',
+            description: "UCLA, Classics Dept. (Summer 2025)",
+            section: "Teaching (Instructor of Record)",
+            handler: () => {window.location.href = "/cv/#Teaching%20(Instructor%20of%20Record)";},
+          },{
+            id: "cv-teaching-instructor-of-record-3",
+            title: 'Origins and Nature of English Vocabulary',
+            description: "UCLA, Classics Dept. (Summer 2024)",
+            section: "Teaching (Instructor of Record)",
+            handler: () => {window.location.href = "/cv/#Teaching%20(Instructor%20of%20Record)";},
+          },{
+            id: "cv-teaching-instructor-of-record-4",
+            title: '8th Grade Greek',
+            description: "Trinity Preparatory School, NJ (Online) (AY 2023-2024)",
+            section: "Teaching (Instructor of Record)",
+            handler: () => {window.location.href = "/cv/#Teaching%20(Instructor%20of%20Record)";},
+          },{
+            id: "cv-teaching-instructor-of-record-5",
+            title: 'Latin 3',
+            description: "UCLA, Classics Dept. (Co-Instructor) (Spring 2024)",
+            section: "Teaching (Instructor of Record)",
+            handler: () => {window.location.href = "/cv/#Teaching%20(Instructor%20of%20Record)";},
+          },{
+            id: "cv-teaching-instructor-of-record-6",
+            title: 'Latin 2',
+            description: "UCLA, Classics Dept. (Co-Instructor) (Winter 2024)",
+            section: "Teaching (Instructor of Record)",
+            handler: () => {window.location.href = "/cv/#Teaching%20(Instructor%20of%20Record)";},
+          },{
+            id: "cv-teaching-instructor-of-record-7",
+            title: 'Latin 1',
+            description: "UCLA, Classics Dept. (Co-Instructor) (Fall 2023)",
+            section: "Teaching (Instructor of Record)",
+            handler: () => {window.location.href = "/cv/#Teaching%20(Instructor%20of%20Record)";},
+          },{
+            id: "cv-teaching-instructor-of-record-8",
+            title: 'Intensive Summer Greek',
+            description: "UCLA, Classics Dept. (Co-Instructor) (Summer 2023)",
+            section: "Teaching (Instructor of Record)",
+            handler: () => {window.location.href = "/cv/#Teaching%20(Instructor%20of%20Record)";},
+          },{
+            id: "cv-teaching-teaching-assistant-1",
+            title: 'Discovering the Romans',
+            description: "UCLA, Classics Dept. Instructor of Record: Prof. Adriana Vazquez (Spring 2023)",
+            section: "Teaching (Teaching Assistant)",
+            handler: () => {window.location.href = "/cv/#Teaching%20(Teaching%20Assistant)";},
+          },{
+            id: "cv-teaching-teaching-assistant-2",
+            title: 'Ancient Greek and Roman Medicine',
+            description: "UCLA, Classics Dept. Instructor of Record: Prof. David Blank (Winter 2023)",
+            section: "Teaching (Teaching Assistant)",
+            handler: () => {window.location.href = "/cv/#Teaching%20(Teaching%20Assistant)";},
+          },{
+            id: "cv-teaching-teaching-assistant-3",
+            title: 'Discovering the Greeks',
+            description: "UCLA, Classics Dept. Instructor of Record: Prof. Ella Haselswerdt (Fall 2022)",
+            section: "Teaching (Teaching Assistant)",
+            handler: () => {window.location.href = "/cv/#Teaching%20(Teaching%20Assistant)";},
+          },{
+            id: "cv-teaching-teaching-assistant-4",
+            title: 'Modern Issues, Ancient Times: Race and Antiquity',
+            description: "CU Boulder, Classics Dept. Instructor of Record: Prof. Dimitri Nakassis (Spring 2021)",
+            section: "Teaching (Teaching Assistant)",
+            handler: () => {window.location.href = "/cv/#Teaching%20(Teaching%20Assistant)";},
+          },{
+            id: "cv-teaching-teaching-assistant-5",
+            title: 'Topics in History: Alexander the Great',
+            description: "CU Boulder, Classics Dept. Instructor of Record: Prof. Peter Hunt (Fall 2020)",
+            section: "Teaching (Teaching Assistant)",
+            handler: () => {window.location.href = "/cv/#Teaching%20(Teaching%20Assistant)";},
+          },{
+            id: "cv-teaching-teaching-assistant-6",
+            title: 'Greek and Roman Mythology',
+            description: "CU Boulder, Classics Dept. Instructor of Record: Prof. Tyler Lansford (Summer 2020)",
+            section: "Teaching (Teaching Assistant)",
+            handler: () => {window.location.href = "/cv/#Teaching%20(Teaching%20Assistant)";},
+          },{
+            id: "cv-teaching-teaching-assistant-7",
+            title: 'Rise and Fall of Rome',
+            description: "CU Boulder, Classics Dept. Instructor of Record: Prof. Tyler Lansford (Spring 2020)",
+            section: "Teaching (Teaching Assistant)",
+            handler: () => {window.location.href = "/cv/#Teaching%20(Teaching%20Assistant)";},
+          },{
+            id: "cv-teaching-teaching-assistant-8",
+            title: 'Bread and Circuses: Roman Culture and Politics',
+            description: "CU Boulder, Classics Dept. Instructor of Record: Prof. Andy Cain (Fall 2019)",
+            section: "Teaching (Teaching Assistant)",
+            handler: () => {window.location.href = "/cv/#Teaching%20(Teaching%20Assistant)";},
+          },{
+            id: "cv-research-assistant-positions-1",
+            title: 'Prof. David Goldstein',
+            description: "Homeric and Inscriptional Greek Data Collection (W 2024-Present)",
+            section: "Research Assistant Positions",
+            handler: () => {window.location.href = "/cv/#Research%20Assistant%20Positions";},
+          },{
+            id: "cv-research-assistant-positions-2",
+            title: 'Prof. Alex Purves',
+            description: "Book Proofreading, Bibliography Compilation, Homeric Greek Data Collection (F 2024-Present)",
+            section: "Research Assistant Positions",
+            handler: () => {window.location.href = "/cv/#Research%20Assistant%20Positions";},
+          },{
+            id: "cv-grants-awards-1",
+            title: 'UCLA Graduate Research Mentorship Award',
+            description: "Advisor: Prof. Hannah Čulík-Baird (AY 2024-2025)",
+            section: "Grants &amp; Awards",
+            handler: () => {window.location.href = "/cv/#Grants%20&%20Awards";},
+          },{
+            id: "cv-grants-awards-2",
+            title: 'UCLA Keck Humanistic Inquiry Research Award',
+            description: "with Klaus Kim, Laura McLean, and Muhammad Rehan. Advisor: Prof. David Goldstein (Summer 2024)",
+            section: "Grants &amp; Awards",
+            handler: () => {window.location.href = "/cv/#Grants%20&%20Awards";},
+          },{
+            id: "cv-grants-awards-3",
+            title: 'UCLA Graduate Summer Research Mentorship Award',
+            description: "Advisor: Prof. Brent Vine (Summer 2022)",
+            section: "Grants &amp; Awards",
+            handler: () => {window.location.href = "/cv/#Grants%20&%20Awards";},
+          },{
+            id: "cv-grants-awards-4",
+            title: 'CU Boulder Benson Center Language Study Grant',
+            description: " (Summer 2020)",
+            section: "Grants &amp; Awards",
+            handler: () => {window.location.href = "/cv/#Grants%20&%20Awards";},
+          },{
+            id: "cv-grants-awards-5",
+            title: 'CU Boulder Hunter Rawlings Award',
+            description: " (Summer 2020)",
+            section: "Grants &amp; Awards",
+            handler: () => {window.location.href = "/cv/#Grants%20&%20Awards";},
+          },{
+            id: "cv-grants-awards-6",
+            title: 'University of Richmond Arts and Sciences Symposium Paper Competition Award',
+            description: " (Spring 2018)",
+            section: "Grants &amp; Awards",
+            handler: () => {window.location.href = "/cv/#Grants%20&%20Awards";},
+          },{
+            id: "cv-grants-awards-7",
+            title: 'University of Richmond Tanner Medal for Excellence in Greek',
+            description: " (Spring 2018)",
+            section: "Grants &amp; Awards",
+            handler: () => {window.location.href = "/cv/#Grants%20&%20Awards";},
+          },{
+            id: "cv-grants-awards-8",
+            title: 'University of Richmond Undergraduate Research Fellow',
+            description: "Advisor: Prof. Dean Simpson (Summer 2017)",
+            section: "Grants &amp; Awards",
+            handler: () => {window.location.href = "/cv/#Grants%20&%20Awards";},
+          },{
+            id: "cv-service-1",
+            title: 'Data X Stacks Xchange Co-Organizer (UCLA)',
+            description: " (AY 2026-2027)",
+            section: "Service",
+            handler: () => {window.location.href = "/cv/#Service";},
+          },{
+            id: "cv-service-2",
+            title: 'Classics Department Graduate Workshop Organizer (UCLA)',
+            description: " (AY 2025-2026)",
+            section: "Service",
+            handler: () => {window.location.href = "/cv/#Service";},
+          },{
+            id: "cv-service-3",
+            title: 'Classics Graduate Student Mentor (UCLA)',
+            description: " (AY 2023-2024)",
+            section: "Service",
+            handler: () => {window.location.href = "/cv/#Service";},
+          },{
+            id: "cv-service-4",
+            title: 'Classics Graduate Student Representative (UCLA)',
+            description: " (AY 2022-2023)",
+            section: "Service",
+            handler: () => {window.location.href = "/cv/#Service";},
+          },{
+            id: "cv-service-5",
+            title: 'Classics Graduate Colloquium Event Organizer (CU Boulder)',
+            description: " (AY 2020-2021)",
+            section: "Service",
+            handler: () => {window.location.href = "/cv/#Service";},
+          },];
