@@ -280,14 +280,16 @@ ninja.data = [
           {%- assign cv_use_anchor = true -%}
       {%- endcase -%}
       {%- for entry in section.contents -%}
-        {%- assign cv_entry_title = entry.title | strip_html | strip_newlines | escape | strip -%}
+        {%- assign cv_entry_title = entry.title | strip_html | strip_newlines | strip -%}
         {%- if cv_entry_title != blank -%}
           {%- assign cv_entry_desc = entry.institution | default: entry.department | default: entry.location -%}
+          {%- assign cv_entry_desc_text = cv_entry_desc | strip_html | strip_newlines | strip -%}
+          {%- if entry.year -%}{%- assign cv_entry_desc_text = cv_entry_desc_text | append: " (" | append: entry.year | append: ")" -%}{%- endif -%}
           {
             id: "cv-{{ section.title | slugify }}-{{ forloop.index }}",
-            title: '{{ cv_entry_title | truncatewords: 13 }}',
-            description: "{{ cv_entry_desc | strip_html | strip_newlines | escape | strip }}{% if entry.year %} ({{ entry.year }}){% endif %}",
-            section: "{{ section.title | escape }}",
+            title: {{ cv_entry_title | truncatewords: 13 | jsonify }},
+            description: {{ cv_entry_desc_text | jsonify }},
+            section: {{ section.title | jsonify }},
             handler: () => {
               {%- if cv_use_anchor -%}
                 window.location.href = "{{ cv_target_url | relative_url }}#{{ section.title | uri_escape }}";
