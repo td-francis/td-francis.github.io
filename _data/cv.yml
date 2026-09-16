@@ -32,6 +32,10 @@
   toc: true
   type: time_table
   contents:
+    - title: "Teaching Late Antiquity (Quickly!): English Etymology Courses"
+      institution: "'Late Antique Encounters' Conference, Ghent (Belgium), February"
+      year: 2027
+      selected: true
     - title: "Modeling Alphabet Diffusion and Community Interactions in Ancient Italy with Spatiotemporal Point Processes"
       institution: "with Muhammad Rehan. The Connected Past 2026, Toronto (Canada), September 23"
       year: 2026
