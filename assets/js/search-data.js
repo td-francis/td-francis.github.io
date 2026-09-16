@@ -29,7 +29,7 @@ ninja.data = [{
           },{
             id: "cv-presentations-1",
             title: "Modeling Alphabet Diffusion and Community Interactions in Ancient Italy with Spatiotemporal Point Processes...",
-            description: "with Muhammad Rehan. The Connected Past 2026, Toronto (Canada), September 2026 (Forth.)",
+            description: "with Muhammad Rehan. The Connected Past 2026, Toronto (Canada), September 23 (2026)",
             section: "Presentations",
             handler: () => {window.location.href = "/presentations/";},
           },{
