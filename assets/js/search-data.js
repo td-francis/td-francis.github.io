@@ -35,7 +35,7 @@ ninja.data = [{
           },{
             id: "cv-presentations-2",
             title: "Economic Effects on the Distribution of Languages and Alphabets in Ancient Italy",
-            description: "with Muhammad Rehan. Quantitative Diachronic Linguistics and Cultural Analytics 2027, January (2027)",
+            description: "with Muhammad Rehan. Quantitative Diachronic Linguistics and Cultural Analytics 2027, London (UK) January (2027)",
             section: "Presentations",
             handler: () => {window.location.href = "/presentations/";},
           },{
