@@ -29,7 +29,7 @@ ninja.data = [{
           },{
             id: "cv-presentations-1",
             title: "Teaching Late Antiquity (Quickly!): English Etymology Courses",
-            description: "'Late Antique Encounters' Conference, Ghent (Belgium), February (2027)",
+            description: "'Late Antique Encounters' Conference, Ghent (Belgium), February 4 (2027)",
             section: "Presentations",
             handler: () => {window.location.href = "/presentations/";},
           },{
